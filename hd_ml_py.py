@@ -25,6 +25,8 @@ with st.sidebar:
 if (selected == 'Heart Disease Prediction'):
     
     # page title
+    selected = option_menu('Heart Disease Prediction using ML',['Heart Disease Prediction'],icons=['heart'],default_index=0)
+
     st.title('Heart Disease Prediction using ML')
     
     col1, col2 = st.columns(2)
