@@ -25,7 +25,7 @@ with st.sidebar:
 if (selected == 'Heart Disease Prediction'):
     
     # page title
-    st.title('Heart Disease Prediction using ML',icons=['heart'])
+    st.title('Heart Disease Prediction using ML')
     
     col1, col2 = st.columns(2)
     
