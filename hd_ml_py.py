@@ -19,7 +19,7 @@ with st.sidebar:
                           
                           ['Heart Disease Prediction'],
                           icons=['heart'],
-                          default_index=1)
+                          default_index=0)
 
 # Heart Disease Prediction Page
 if (selected == 'Heart Disease Prediction'):
