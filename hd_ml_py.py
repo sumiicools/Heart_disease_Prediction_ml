@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import pickle
+import pickle #a Python object hierarchy is converted into a byte stream
 import streamlit as st
 from streamlit_option_menu import option_menu
 
