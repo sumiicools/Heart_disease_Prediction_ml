@@ -60,7 +60,7 @@ if (selected == 'Heart Disease Prediction'):
         slope = st.text_input('Slope of the peak exercise ST segment (0-2)')
         
     with col2:
-        ca = st.text_input('Major vessels colored by flourosopy ()')
+        ca = st.text_input('Major vessels colored by flourosopy (0-2)')
         
     with col1:
         thal = st.text_input('thal: 0 = normal; 1 = fixed defect; 2 = reversable defect')
